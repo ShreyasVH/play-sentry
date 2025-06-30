@@ -10,7 +10,7 @@
     <appender name="Sentry" class="io.sentry.logback.SentryAppender">
     </appender>
 
-    <logger name="controllers" level="trace" additivity="false">
+    <logger name="controllers" level="error" additivity="false">
         <appender-ref ref="Sentry"/>
         <appender-ref ref="Console"/>
     </logger>

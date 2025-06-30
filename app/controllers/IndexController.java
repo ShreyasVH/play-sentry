@@ -11,10 +11,10 @@ public class IndexController extends Controller
 
 	public Result get(String input)
 	{
-		logger.trace("Trace logging");
-		logger.debug("Debug logging");
-		logger.info("Info logging");
-		logger.warn("Warn logging");
+		// logger.trace("Trace logging");
+		// logger.debug("Debug logging");
+		// logger.info("Info logging");
+		// logger.warn("Warn logging");
 		logger.error("Error logging");
 
 		return ok("GET REQUEST with input: " + input);
