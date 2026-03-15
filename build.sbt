@@ -2,7 +2,7 @@ name := "play-sentry"
 
 version := "1.0.0"
 
-scalaVersion := "2.13.18"
+scalaVersion := "3.8.2"
 
 libraryDependencies += guice
 libraryDependencies += "io.sentry" % "sentry-logback" % "8.29.0"
