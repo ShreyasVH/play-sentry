@@ -5,6 +5,6 @@ version := "1.0.0"
 scalaVersion := "3.8.4"
 
 libraryDependencies += guice
-libraryDependencies += "io.sentry" % "sentry-logback" % "8.52.0"
+libraryDependencies += "io.sentry" % "sentry-logback" % "8.53.0"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
